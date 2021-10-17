@@ -1,21 +1,9 @@
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages\my-kita-theme\src\index.js</pre>
-    </>
-  );
-};
+import Root from "./components"
 
-export default {
-  name: "my-kita-theme",
-  roots: {
-    theme: Root
-  },
-  state: {
-    theme: {}
-  },
-  actions: {
-    theme: {}
-  }
-};
+const myKitaTHeme = {  
+    name: "my-kita-theme",  
+    roots: {    theme: Root,  },  
+    state: {    theme: {},  },  
+    actions: {    theme: {},
+  },}
+  export default myKitaTHeme
